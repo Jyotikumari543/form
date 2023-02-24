@@ -1,0 +1,361 @@
+//login or signin form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SignIn form</title>
+    <style>
+        .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(238, 238, 238);
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.vh-100{
+    display: flex;
+}
+body{
+    font-size:small;
+    background-color: bisque;
+}
+.inputsection{
+    margin-top:100px;
+    margin-right:50px;
+    margin-bottom:100px;
+    margin-left:20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h2{
+    text-align:center;
+   color:grey;
+}
+h1{
+    text-align: center;
+}
+
+#Email{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+
+#pwd{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+.demo{
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Welcome Back</h2>
+        <h1><strong> Stay tuned here</strong></h1>
+    </div>
+    <section class="vh-100">
+
+        <div class="image section">
+
+          <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+                class="img-fluid" alt="Phone image" height="500px" weidth="600px">
+            </div>
+        </div>
+          </div>
+
+
+
+        </div>
+        
+
+        <div class="inputsection">
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form class="form-inline" action="/action_page.php">
+                    <label for="Email"></label>
+                    <input type="Email" id="Email" placeholder="Username(Email)" name="Email">
+                    <label for="pwd"></label>
+                    <input type="password" id="pwd" placeholder=" password" name="pswd">
+                  <label class="form-label" for="form3Example4"></label>
+                </div>
+      
+                <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                    <br>
+                  
+                <div class="text-center text-lg-start mt-4 pt-2">
+                    <button class="button button1">Sign In</button>
+                  <p class="demo">Don't have an account? <a href="file:///D:/projects/web%20projects/signup.html"
+                      class="link-Warning">Sign Up</a> here </p>
+                </div>
+      
+              </form>
+            </div>
+        </div>
+        
+
+       
+           
+             </div>
+      </section> 
+</body>
+</html>
+
+
+
+
+
+==========================================================================================================================
+//Registration form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SignUP form</title>
+    <style>
+        .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(238, 238, 238);
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.vh-100{
+    display: flex;
+}
+body{
+    font-size:small;
+    background-image:url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px;
+
+}
+.inputsection{
+    margin-top:100px;
+    margin-right:50px;
+    margin-bottom:100px;
+    margin-left:20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+h2{
+    text-align:center;
+   color:grey;
+}
+h1{
+    text-align: center;
+}
+
+#Email{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 20px
+}
+
+
+#pwd{
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+#repwd{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        font-size: medium;
+    }
+
+#text{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        font-size: medium;
+}
+#date{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        font-size: medium;
+}
+#phone{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        font-size: medium;
+}
+#myfile{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        font-size: medium;  
+}
+.demo{
+    font-size: 20px;
+}
+
+.img-fluid{
+        margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Hello</h2>
+        <h1><strong>Let's Sign Up here</strong></h1>
+    </div>
+    <section class="vh-100">
+
+        <div class="image section">
+
+          <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://media.istockphoto.com/id/483731108/photo/technology-and-coffee-on-a-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=_CO1HjY597xwNn7SASXmYE92TMKHcSGC-A-ORKY0uOE="
+                class="img-fluid" alt="Phone image" height="500px" weidth="800px">
+            </div>
+        </div>
+          </div>
+
+
+
+        </div>
+        
+
+        <div class="inputsection">
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form class="form-inline" action="/action_page.php">
+                        <label for="Email"></label>
+                        <input type="Email" id="Email" placeholder="Username(Email)" name="Email">
+                        <label for="pwd"></label>
+                        <input type="password" id="pwd" placeholder=" password" name="pswd">
+                    <label for="pwd"></label>
+                    <input type="password" id="repwd" placeholder="Re-password" name="pswd">
+                    <label for="number"></label>
+                        <input type="number" id="phone" placeholder="Age" name="number">
+                        <label for="date"></label>
+                        <input type="Date" id="date" placeholder="DOB" name="DOB">
+                        <label for="text"></label>
+                        <input type="text" id="text" placeholder="country" name="text">
+                        <label for="text"></label>
+                        <input type="text" id="text" placeholder="state" name="text">
+                        <label for="text"></label>
+                        <input type="text" id="text" placeholder="City" name="text">
+                        <label for="myfile"></label>
+                        <input type="file" id="myfile"  placeholder="No file..choosen"  name="myfile"><br><br>
+                   
+                </div>
+      
+                <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                    <br>
+                  
+                <div class="text-center text-lg-start mt-4 pt-2">
+                    <button class="button button1">Sign Up</button>
+                  <p class="demo">Already have an account <a href="file:///D:/projects/web%20projects/login.html"
+                      class="link-Warning">Login</a> here </p>
+                </div>
+      
+              </form>
+            </div>
+        </div>
+        
+
+       
+           
+             </div>
+      </section> 
+</body>
+</html>
+
